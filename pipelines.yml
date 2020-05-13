@@ -2,8 +2,8 @@ resources:
   - name: myAppRepo
     type: GitRepo
     configuration:
-      gitProvider: MyGit                              # Change to your integration
-      path: jagdishmirani/hello-world                 # Change to your repo
+      gitProvider: MyGit                             
+      path: jagdishmirani/hello-world         
       
 pipelines:
   - name: pipeline_hello_world
