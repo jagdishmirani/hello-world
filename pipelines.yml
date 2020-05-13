@@ -1,1 +1,8 @@
-
+resources:
+  - name: myAppRepo
+    type: GitRepo
+    configuration:
+      gitProvider: MyGit                              # Change to your integration
+      path: jagdishmirani/hello-world                 # Change to your repo
+      
+ 
