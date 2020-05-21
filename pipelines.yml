@@ -2,7 +2,7 @@ resources:
   - name: myAppRepo
     type: GitRepo
     configuration:
-      gitProvider: MyGit                             
+      gitProvider: my_github                            
       path: jagdishmirani/hello-world         
       
 pipelines:
